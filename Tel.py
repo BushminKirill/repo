@@ -1,11 +1,11 @@
 import telebot
 from telebot import apihelper
 from telebot import types
-import DB
+
 
 bot = telebot.TeleBot('666185661:AAGeoxYjRX4eednqACEWixlaIhjSTZK3GXk')
 apihelper.proxy = {
-    'https': 'socks5h://96.113.166.133:1080',
+    'https': 'socks5h://67.205.149.230:1080',
 }
 but = types.ReplyKeyboardMarkup(row_width=2)
 
