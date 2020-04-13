@@ -5,7 +5,7 @@ from telebot import types
 
 bot = telebot.TeleBot('666185661:AAGeoxYjRX4eednqACEWixlaIhjSTZK3GXk')
 apihelper.proxy = {
-    'https': 'socks5h://67.205.149.230:1080',
+    'https': 'socks5://173.244.200.156:13246',
 }
 but = types.ReplyKeyboardMarkup(row_width=2)
 
@@ -27,5 +27,5 @@ def get_text_messages(message):
         bot.send_message(message.from_user.id, "FUCK /help.")
 
 
-bot.polling(none_stop=True, interval=0)
+bot.polling(none_stop=True, timeout=123)
 
