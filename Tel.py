@@ -5,7 +5,7 @@ from telebot import types
 
 bot = telebot.TeleBot('666185661:AAGeoxYjRX4eednqACEWixlaIhjSTZK3GXk')
 apihelper.proxy = {
-    'https': 'socks5://173.244.200.156:13246',
+    'https': 'socks5://96.96.33.133:1080',
 }
 but = types.ReplyKeyboardMarkup(row_width=2)
 
