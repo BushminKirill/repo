@@ -1,1 +1,1 @@
-worker: python3 Tel.py
+worker: python Tel.py
